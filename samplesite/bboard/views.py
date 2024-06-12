@@ -35,3 +35,14 @@ def by_rubric(request, rubric_id):
     return render(request, 'bboard/by_rubric.html', context)
 
 
+def home(request):
+    return render(request, 'home.html')
+
+def login_view(request):
+    return render(request, 'login.html')
+
+def about_view(request):
+    return render(request, 'bboard/about.html')
+
+def contacts_view(request):
+    return render(request, 'bboard/contacts.html')
